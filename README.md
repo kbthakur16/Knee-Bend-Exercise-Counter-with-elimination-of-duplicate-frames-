@@ -19,7 +19,7 @@ A robust algorithm to calculate successful rep count for knee bend exercise(Usin
 
 ## 2. Estimating poses:
 * In this step, we will be estimating all the different joints and parts within our body.
-* Capture the video feed from the [video file](https://github.com/Jeevesh28/Knee-Bend-Counter-Mediapipe/blob/main/KneeBendVideo.mp4) provided.
+* Capture the video feed from the [video file](KneeBendVideo.mp4) provided.
 * Recolor our image because when we pass the image to mediapipe it should be in RGB format, which is the default BGR when we read it.
 * Use the Pose estimation model to detect the pose.
 * Recolor the image back to the default BGR format.
